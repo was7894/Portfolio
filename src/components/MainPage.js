@@ -18,7 +18,9 @@ function MainPage() {
             ></div>
           </div>
           <div className="content">
-            <div className="title">hyeong seob</div>
+            <div className="title">
+              <span style={{ color: "white" }}>hyeong</span> seob
+            </div>
             <div className="sub_title">김형섭입니다.</div>
           </div>
         </div>

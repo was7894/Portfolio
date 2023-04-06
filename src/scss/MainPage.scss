@@ -33,6 +33,11 @@
       font-size: 72px;
       font-weight: 900;
       text-transform: uppercase;
+      span {
+        -webkit-text-stroke: 1px blue;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: blue;
+      }
     }
     .sub_title {
       color: #555;
