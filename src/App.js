@@ -1,15 +1,17 @@
 import React from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
 import "./index.css";
+import FullPage from "./components/FullPage";
 
-const anchors = ["firstPage", "secondPage", "thirdPage"];
+const anchors = ["mainpage", "aboutpage", "portfolio1", "Portfolio2"];
+
 const App = () => (
   <ReactFullpage
     anchors={anchors}
     navigation
     navigationTooltips={anchors}
     navigat
-    sectionsColor={["#7fff00", "#00ffff", "#29ab87"]}
+    sectionsColor={["#f9f9f9", "#00ffff", "#29ab87", "#ffc2c2"]}
     onLeave={(origin, destination, direction) => {
       console.log("onLeave event", { origin, destination, direction });
     }}
@@ -17,16 +19,8 @@ const App = () => (
       console.log("render prop change", state, fullpageApi);
 
       return (
-        <div>
-          <div className="section">
-            <h3>Section 1</h3>
-          </div>
-          <div className="section">
-            <h3>Section 2</h3>
-          </div>
-          <div className="section">
-            <h3>Section 3</h3>
-          </div>
+        <div className="wrap">
+          <FullPage />
         </div>
       );
     }}
