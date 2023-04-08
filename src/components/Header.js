@@ -1,4 +1,5 @@
 import React from "react";
+import "../scss/Header.scss";
 
 function Header() {
   return (
@@ -7,11 +8,13 @@ function Header() {
         <div>
           <span>Logo</span>
         </div>
-        <div>
+        <div className="header_gnb">
           <a href="#Home">Home</a>
           <a href="#About">About</a>
           <a href="#Portfolio">Portfolio</a>
-          <a href="#Contact">Contact</a>
+          <a href="#Contact" className="contact">
+            Contact
+          </a>
         </div>
       </div>
     </>
