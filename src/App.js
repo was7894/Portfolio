@@ -21,6 +21,16 @@ const App = () => (
       return (
         <div className="wrap">
           <FullPage />
+          <div className="header">
+            <div>
+              <span>Logo</span>
+            </div>
+            <div>
+              <a href="#mainpage">main</a>
+              <a href="#aboutpage">about</a>
+              <a href="#portfolio1">portfolio</a>
+            </div>
+          </div>
         </div>
       );
     }}

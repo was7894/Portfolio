@@ -1,22 +1,18 @@
 import React from "react";
 import "../scss/MainPage.scss";
-// import background from "../../public/images/model.jpg";
-// import background from "./images/model.jpg";
+import bg from "../images/img_photo.png";
+
 function MainPage() {
+  const photo = { backgroundImage: `url(${bg})` };
+
   return (
     <>
       <div className="section">
         <div className="container">
           <div className="background">
-            <div
-              className="img_photo1"
-              style={
-                {
-                  // backgroundImage: "url('../images/model.jpg')",
-                }
-              }
-            ></div>
+            <div className="img_photo1" style={photo}></div>
           </div>
+
           <div className="content">
             <div className="title">
               <span style={{ color: "white" }}>hyeong</span> seob
