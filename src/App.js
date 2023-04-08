@@ -2,39 +2,30 @@ import React from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
 import "./index.css";
 import FullPage from "./components/FullPage";
+import Header from "./components/Header";
 
-const anchors = ["mainpage", "aboutpage", "portfolio1", "Portfolio2"];
+const anchors = ["Home", "About", "Portfolio", "Contact"];
 
-const App = () => (
-  <ReactFullpage
-    anchors={anchors}
-    navigation
-    navigationTooltips={anchors}
-    navigat
-    sectionsColor={["#f9f9f9", "#00ffff", "#29ab87", "#ffc2c2"]}
-    onLeave={(origin, destination, direction) => {
-      console.log("onLeave event", { origin, destination, direction });
-    }}
-    render={({ state, fullpageApi }) => {
-      console.log("render prop change", state, fullpageApi);
-
-      return (
-        <div className="wrap">
-          <FullPage />
-          <div className="header">
-            <div>
-              <span>Logo</span>
-            </div>
-            <div>
-              <a href="#mainpage">main</a>
-              <a href="#aboutpage">about</a>
-              <a href="#portfolio1">portfolio</a>
-            </div>
-          </div>
-        </div>
-      );
-    }}
-  />
-);
+function App() {
+  return (
+    <>
+      <Header />
+      <ReactFullpage
+        anchors={anchors}
+        navigation={true}
+        navigationTooltips={anchors}
+        sectionsColor={["#f9f9f9", "#00ffff", "#29ab87", "#ffc2c2"]}
+        controlArrows={true}
+        slidesNavigation={true}
+        slidesNavPosition={"bottom"}
+        render={() => (
+          <ReactFullpage.Wrapper>
+            <FullPage />
+          </ReactFullpage.Wrapper>
+        )}
+      />
+    </>
+  );
+}
 
 export default App;

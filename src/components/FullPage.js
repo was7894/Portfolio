@@ -1,15 +1,15 @@
 import React from "react";
 import MainPage from "./MainPage";
 import AboutPage from "./AboutPage";
-import PortFolio1 from "./PortFolio1";
-import PortFolio2 from "./PortFolio2";
+import PortFolio from "./PortFolio";
+import Contact from "./Contact";
 function FullPage() {
   return (
     <div>
       <MainPage />
       <AboutPage />
-      <PortFolio1 />
-      <PortFolio2 />
+      <PortFolio />
+      <Contact />
     </div>
   );
 }
