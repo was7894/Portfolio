@@ -46,11 +46,3 @@ h3 {
   width: 100%;
   box-sizing: border-box;
 }
-
-#fp-nav ul li a span,
-.fp-slidesNav ul li a span {
-  background: #00aaf0 !important;
-}
-#fp-nav ul li .fp-tooltip {
-  color: #00aaf0 !important;
-}

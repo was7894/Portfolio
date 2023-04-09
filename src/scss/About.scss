@@ -1,0 +1,57 @@
+@import "../scss/Common.scss";
+
+.contents {
+  position: relative;
+  height: inherit;
+  .inner {
+    position: absolute;
+    display: flex;
+    column-gap: 130px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 510px;
+    align-items: center;
+  }
+}
+
+.inner {
+  .left {
+    position: relative;
+    width: 40%;
+    height: inherit;
+    padding-right: 50px;
+    .img_about {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+      // background-position: 50%;
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+      box-sizing: border-box;
+    }
+  }
+
+  .right {
+    width: 44%;
+    height: inherit;
+
+    .about_txt {
+      .txt_1 {
+        padding: 4px 10px;
+        margin-bottom: 15px;
+        display: inline-block;
+        color: #333;
+        @include popin;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@mixin inner {
+  max-width: 1200px;
+}
+
+@mixin container {
+  margin: 0 auto;
+  box-sizing: border-box;
+  @include inner;
+  padding: 0 40px;
+  width: 100%;
+  height: 80vh;
+}
+
+//color
+$point: #00aaf0;
+
+@mixin popin {
+  font-family: "Poppins";
+}

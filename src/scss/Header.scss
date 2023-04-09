@@ -1,10 +1,12 @@
+@import "../scss/Common.scss";
+
 .header {
   position: fixed;
   display: flex;
   z-index: 99;
   width: 80%;
   height: 90px;
-  max-width: 1280px;
+  @include inner;
   top: 0px;
   left: 50%;
   padding: 0;
@@ -21,11 +23,11 @@
     margin-right: 5%;
     color: black;
     font-size: 16px;
-    font-family: "Poppins";
+    @include popin;
     font-weight: 500;
     transition: all 0.3s ease-in-out;
     &:hover {
-      color: #00aaf0;
+      color: $point;
     }
   }
   .contact {

@@ -8,7 +8,7 @@ function MainPage() {
   return (
     <>
       <div className="section">
-        <div className="container">
+        <div id="container">
           <div className="background">
             <div className="img_photo1" style={photo}></div>
           </div>

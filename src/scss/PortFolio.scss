@@ -1,3 +1,5 @@
+@import "../scss/Common.scss";
+
 /* 화살표 */
 .fp-prev {
   left: 50px !important;
@@ -7,4 +9,12 @@
 }
 .fp-slidesNav.fp-bottom {
   text-align: center;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: $point !important;
+}
+#fp-nav ul li .fp-tooltip {
+  color: $point !important;
 }

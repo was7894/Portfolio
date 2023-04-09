@@ -1,10 +1,7 @@
-.container {
-  margin: 0 auto;
-  box-sizing: border-box;
-  max-width: 1280px;
-  padding: 0 40px;
-  width: 100%;
-  height: 80vh;
+@import "../scss/Common.scss";
+
+#container {
+  @include container;
 
   .background {
     .img_photo1 {
@@ -29,7 +26,7 @@
       position: relative;
       display: inline-block;
       overflow: hidden;
-      font-family: Poppins;
+      @include popin;
       color: #000;
       line-height: 1.2;
       font-size: 72px;
