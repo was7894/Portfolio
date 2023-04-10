@@ -4,13 +4,15 @@ function PortFolio() {
   return (
     <div className="section">
       <div className="slide">
-        <h3>Section 3-1</h3>
+        <div id="container">asdf</div>
       </div>
+
       <div className="slide">
-        <h3>Section 3-2</h3>
+        <div id="container">asdf</div>
       </div>
+
       <div className="slide">
-        <h3>Section 3-3</h3>
+        <div id="container">asdf</div>
       </div>
     </div>
   );

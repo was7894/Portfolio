@@ -1,0 +1,35 @@
+@import "../scss/Common.scss";
+.shape_top {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.sec4_bg {
+  position: absolute;
+  width: 100%;
+  top: 1px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+}
