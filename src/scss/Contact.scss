@@ -33,3 +33,38 @@
     z-index: 1;
   }
 }
+
+.txt_inner {
+  display: flex;
+  position: relative;
+  width: 100%;
+  z-index: 3;
+  flex-direction: column;
+  align-items: center;
+
+  h3 {
+    @include popin;
+    color: #fff;
+
+    font-size: 72px;
+    font-weight: 800;
+  }
+
+  button {
+    display: inline-block;
+    padding: 15px 48px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #000;
+    @include popin;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0, 0, 0.1, 1);
+
+    &:hover {
+      background-color: transparent;
+      color: #fff;
+      transform: translateY(-3px);
+    }
+  }
+}

@@ -11,10 +11,113 @@
   text-align: center;
 }
 
-#fp-nav ul li a span,
-.fp-slidesNav ul li a span {
-  background: $point !important;
-}
 #fp-nav ul li .fp-tooltip {
-  color: $point !important;
+  color: black !important;
+}
+
+.fp-arrow.fp-prev {
+  border-color: transparent black transparent transparent;
+}
+.fp-arrow.fp-next {
+  border-color: transparent transparent transparent black;
+}
+
+.title_s {
+  margin-top: 3%;
+  font-size: 3em;
+  color: black;
+  text-align: center;
+  font-weight: 700;
+  @include popin;
+}
+
+.title_p {
+  @include noto;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(146, 143, 143);
+}
+
+.project_box {
+  position: relative;
+  height: calc(80vh - 72px);
+  .box_inner {
+    position: absolute;
+    display: flex;
+    column-gap: 16%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: inherit;
+  }
+}
+
+.box_inner {
+  .box_left {
+    position: relative;
+    width: 50%;
+    height: inherit;
+  }
+  .box_right {
+    position: relative;
+    width: 50%;
+    height: inherit;
+  }
+}
+.num_p {
+  @include popin;
+  font-size: 50px;
+  font-weight: 800;
+  color: rgb(219, 212, 212);
+}
+
+.capture {
+  position: relative;
+  width: 475px;
+  height: 300px;
+  img {
+    overflow: hidden;
+    position: absolute;
+    width: inherit;
+  }
+}
+
+.box_btn {
+  display: flex;
+  justify-content: space-between;
+
+  .btn_n {
+    display: inline-block;
+    padding: 10px 33px;
+    border: 2px solid black;
+    background-color: #fff;
+    color: black;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.6s cubic-bezier(0, 0, 0.1, 1);
+    &:hover {
+      border: 2px solid #fff;
+      background-color: #000;
+      color: #fff;
+      transform: translateY(-3px);
+    }
+  }
+  .btn_p {
+    display: inline-block;
+    padding: 10px 33px;
+    border: 2px solid #fff;
+    background-color: black;
+    color: white;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.6s cubic-bezier(0, 0, 0.1, 1);
+    &:hover {
+      border: 2px solid black;
+      background-color: #fff;
+      color: black;
+      transform: translateY(-3px);
+    }
+  }
 }

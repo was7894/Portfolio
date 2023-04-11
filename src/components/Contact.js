@@ -14,6 +14,14 @@ function Contact() {
       <div className="sec4_bg" style={photo}>
         <div className="overlay"></div>
       </div>
+      <div className="txt_inner">
+        <div>
+          <h3>Let's work together !</h3>
+        </div>
+        <div>
+          <button>Contact Me!</button>
+        </div>
+      </div>
     </div>
   );
 }
