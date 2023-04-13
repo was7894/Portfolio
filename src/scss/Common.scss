@@ -1,5 +1,5 @@
 @mixin inner {
-  max-width: 1200px;
+  max-width: 1440px;
 }
 
 @mixin container {
@@ -13,10 +13,17 @@
 
 //color
 $point: #00aaf0;
+$bg: #f9f9f9;
 
 @mixin popin {
   font-family: "Poppins";
 }
 @mixin noto {
   font-family: "Noto Sans KR", sans-serif;
+}
+
+//portfolio box
+@mixin box_port {
+  display: flex;
+  column-gap: 20px;
 }

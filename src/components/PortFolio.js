@@ -14,28 +14,48 @@ function PortFolio() {
             <div className="box_inner">
               <div className="box_left">
                 <span className="num_p">01</span>
-                <div className="capture">
-                  <div className="img_port" style={pic01}></div>
-                </div>
-                <span className="title_p">광주과학기술원</span>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt aliquid voluptatum incidunt minus earum eligendi sapiente! Fuga quaerat deleniti sed nemo doloribus ullam. Asperiores autem rerum, aliquid officia repudiandae alias.</p>
-                <div className="box_btn">
-                  <button className="btn_n">깃허브보기</button>
-                  <button className="btn_n">기획서보기</button>
-                  <button className="btn_p">사이트보기</button>
+                <div className="contents_">
+                  <div className="capture">
+                    <div className="img_port" style={pic01}></div>
+                  </div>
+                  <span className="title_p">광주과학기술원</span>
+                  <ul className="list_p">
+                    <li>구 현 기 술:</li>
+                    <li>배 포 매 체:</li>
+                    <li>작 업 기 간:</li>
+                    <li>본인기여도:</li>
+                    <li>브라우저 호환성:</li>
+                    <li>페 이 지 수:</li>
+                    <li>특 징:</li>
+                  </ul>
+                  <div className="box_btn">
+                    <button className="btn_n">깃허브보기</button>
+                    <button className="btn_n">기획서보기</button>
+                    <button className="btn_p">사이트보기</button>
+                  </div>
                 </div>
               </div>
               <div className="box_right">
                 <span className="num_p">02</span>
-                <div className="capture">
-                  <div className="img_port" style={pic01}></div>
-                </div>
-                <span className="title_p">광주과학기술원</span>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt aliquid voluptatum incidunt minus earum eligendi sapiente! Fuga quaerat deleniti sed nemo doloribus ullam. Asperiores autem rerum, aliquid officia repudiandae alias.</p>
-                <div className="box_btn">
-                  <button className="btn_n">깃허브보기</button>
-                  <button className="btn_n">기획서보기</button>
-                  <button className="btn_p">사이트보기</button>
+                <div className="contents_">
+                  <div className="capture">
+                    <div className="img_port" style={pic01}></div>
+                  </div>
+                  <span className="title_p">광주과학기술원</span>
+                  <ul className="list_p">
+                    <li>구 현 기 술:</li>
+                    <li>배 포 매 체:</li>
+                    <li>작 업 기 간:</li>
+                    <li>본인기여도:</li>
+                    <li>브라우저 호환성:</li>
+                    <li>페 이 지 수:</li>
+                    <li>특 징:</li>
+                  </ul>
+                  <div className="box_btn">
+                    <button className="btn_n">깃허브보기</button>
+                    <button className="btn_n">기획서보기</button>
+                    <button className="btn_p">사이트보기</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -50,28 +70,49 @@ function PortFolio() {
             <div className="box_inner">
               <div className="box_left">
                 <span className="num_p">03</span>
-                <div className="capture">
-                  <div className="img_port" style={pic01}></div>
-                </div>
-                <span className="title_p">광주과학기술원</span>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt aliquid voluptatum incidunt minus earum eligendi sapiente! Fuga quaerat deleniti sed nemo doloribus ullam. Asperiores autem rerum, aliquid officia repudiandae alias.</p>
-                <div className="box_btn">
-                  <button className="btn_n">깃허브보기</button>
-                  <button className="btn_n">기획서보기</button>
-                  <button className="btn_p">사이트보기</button>
+                <div className="contents_">
+                  <div className="capture">
+                    <div className="img_port" style={pic01}></div>
+                  </div>
+                  <span className="title_p">광주과학기술원</span>
+                  <ul className="list_p">
+                    <li>구 현 기 술:</li>
+                    <li>배 포 매 체:</li>
+                    <li>작 업 기 간:</li>
+                    <li>본인기여도:</li>
+                    <li>브라우저 호환성:</li>
+                    <li>페 이 지 수:</li>
+                    <li>특 징:</li>
+                  </ul>
+                  <div className="box_btn">
+                    <button className="btn_n">깃허브보기</button>
+                    <button className="btn_n">기획서보기</button>
+                    <button className="btn_p">사이트보기</button>
+                  </div>
                 </div>
               </div>
               <div className="box_right">
                 <span className="num_p">04</span>
-                <div className="capture">
-                  <div className="img_port" style={pic01}></div>
-                </div>
-                <span className="title_p">광주과학기술원</span>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt aliquid voluptatum incidunt minus earum eligendi sapiente! Fuga quaerat deleniti sed nemo doloribus ullam. Asperiores autem rerum, aliquid officia repudiandae alias.</p>
-                <div className="box_btn">
-                  <button className="btn_n">깃허브보기</button>
-                  <button className="btn_n">기획서보기</button>
-                  <button className="btn_p">사이트보기</button>
+
+                <div className="contents_">
+                  <div className="capture">
+                    <div className="img_port" style={pic01}></div>
+                  </div>
+                  <span className="title_p">광주과학기술원</span>
+                  <ul className="list_p">
+                    <li>구 현 기 술:</li>
+                    <li>배 포 매 체:</li>
+                    <li>작 업 기 간:</li>
+                    <li>본인기여도:</li>
+                    <li>브라우저 호환성:</li>
+                    <li>페 이 지 수:</li>
+                    <li>특 징:</li>
+                  </ul>
+                  <div className="box_btn">
+                    <button className="btn_n">깃허브보기</button>
+                    <button className="btn_n">기획서보기</button>
+                    <button className="btn_p">사이트보기</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -86,28 +127,48 @@ function PortFolio() {
             <div className="box_inner">
               <div className="box_left">
                 <span className="num_p">05</span>
-                <div className="capture">
-                  <div className="img_port" style={pic01}></div>
-                </div>
-                <span className="title_p">광주과학기술원</span>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt aliquid voluptatum incidunt minus earum eligendi sapiente! Fuga quaerat deleniti sed nemo doloribus ullam. Asperiores autem rerum, aliquid officia repudiandae alias.</p>
-                <div className="box_btn">
-                  <button className="btn_n">깃허브보기</button>
-                  <button className="btn_n">기획서보기</button>
-                  <button className="btn_p">사이트보기</button>
+                <div className="contents_">
+                  <div className="capture">
+                    <div className="img_port" style={pic01}></div>
+                  </div>
+                  <span className="title_p">광주과학기술원</span>
+                  <ul className="list_p">
+                    <li>구 현 기 술:</li>
+                    <li>배 포 매 체:</li>
+                    <li>작 업 기 간:</li>
+                    <li>본인기여도:</li>
+                    <li>브라우저 호환성:</li>
+                    <li>페 이 지 수:</li>
+                    <li>특 징:</li>
+                  </ul>
+                  <div className="box_btn">
+                    <button className="btn_n">깃허브보기</button>
+                    <button className="btn_n">기획서보기</button>
+                    <button className="btn_p">사이트보기</button>
+                  </div>
                 </div>
               </div>
               <div className="box_right">
                 <span className="num_p">06</span>
-                <div className="capture">
-                  <div className="img_port" style={pic01}></div>
-                </div>
-                <span className="title_p">광주과학기술원</span>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt aliquid voluptatum incidunt minus earum eligendi sapiente! Fuga quaerat deleniti sed nemo doloribus ullam. Asperiores autem rerum, aliquid officia repudiandae alias.</p>
-                <div className="box_btn">
-                  <button className="btn_n">깃허브보기</button>
-                  <button className="btn_n">기획서보기</button>
-                  <button className="btn_p">사이트보기</button>
+                <div className="contents_">
+                  <div className="capture">
+                    <div className="img_port" style={pic01}></div>
+                  </div>
+                  <span className="title_p">광주과학기술원</span>
+                  <ul className="list_p">
+                    <li>구 현 기 술:</li>
+                    <li>배 포 매 체:</li>
+                    <li>작 업 기 간:</li>
+                    <li>본인기여도:</li>
+                    <li>브라우저 호환성:</li>
+                    <li>페 이 지 수:</li>
+                    <li>특 징:</li>
+                  </ul>
+                  <div className="box_btn">
+                    <button className="btn_n">깃허브보기</button>
+                    <button className="btn_n">기획서보기</button>
+                    <button className="btn_p">사이트보기</button>
+                  </div>
                 </div>
               </div>
             </div>

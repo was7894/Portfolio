@@ -2,10 +2,10 @@
 
 /* 화살표 */
 .fp-prev {
-  left: 50px !important;
+  left: 80px !important;
 }
 .fp-next {
-  right: 50px !important;
+  right: 80px !important;
 }
 .fp-slidesNav.fp-bottom {
   text-align: center;
@@ -23,8 +23,8 @@
 }
 
 .title_s {
-  margin-top: 3%;
-  font-size: 3em;
+  margin-bottom: 11px;
+  font-size: 35px;
   color: black;
   text-align: center;
   font-weight: 700;
@@ -44,7 +44,7 @@
   .box_inner {
     position: absolute;
     display: flex;
-    column-gap: 16%;
+    column-gap: 15%;
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
@@ -54,11 +54,13 @@
 
 .box_inner {
   .box_left {
+    @include box_port;
     position: relative;
     width: 50%;
     height: inherit;
   }
   .box_right {
+    @include box_port;
     position: relative;
     width: 50%;
     height: inherit;
@@ -66,15 +68,22 @@
 }
 .num_p {
   @include popin;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 800;
   color: rgb(219, 212, 212);
+}
+.contents_ {
+  padding-top: 30px;
 }
 
 .capture {
   position: relative;
   width: 475px;
   height: 300px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  border-radius: 14px;
   img {
     overflow: hidden;
     position: absolute;
@@ -82,6 +91,15 @@
   }
 }
 
+.list_p {
+  margin: 15px 0 20px 15px;
+  letter-spacing: 2px;
+
+  li {
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+}
 .box_btn {
   display: flex;
   justify-content: space-between;
@@ -97,7 +115,7 @@
     cursor: pointer;
     transition: all 0.6s cubic-bezier(0, 0, 0.1, 1);
     &:hover {
-      border: 2px solid #fff;
+      border: 2px solid $bg;
       background-color: #000;
       color: #fff;
       transform: translateY(-3px);

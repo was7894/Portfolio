@@ -18,6 +18,11 @@ function MainPage() {
               <span style={{ color: "white" }}>hyeong</span> seob
             </div>
             <div className="sub_title">김형섭입니다.</div>
+            <div>
+              <button>이력서</button>
+              <button>깃허브</button>
+              <button></button>
+            </div>
           </div>
         </div>
       </div>
