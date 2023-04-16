@@ -11,7 +11,7 @@ function Header() {
         <div className="header_gnb">
           <a href="#Home">Home</a>
           <a href="#About">About</a>
-          <a href="#Portfolio">Portfolio</a>
+          <a href="#Portfolio">Projects</a>
           <a href="#Contact" className="contact">
             Contact
           </a>

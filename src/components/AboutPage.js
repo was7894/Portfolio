@@ -17,7 +17,7 @@ function AboutPage() {
             <div className="right">
               <div className="about_txt">
                 <span className="txt_1">About Me</span>
-                <p>소단락 제목</p>
+                <p>둥글고 협력적인 자세를 가지고 있는 프론트엔드 개발자 김형섭 입니다.</p>
               </div>
               <div></div>
             </div>

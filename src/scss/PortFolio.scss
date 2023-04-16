@@ -16,14 +16,14 @@
 }
 
 .fp-arrow.fp-prev {
-  border-color: transparent black transparent transparent;
+  border-color: transparent black transparent transparent !important;
 }
 .fp-arrow.fp-next {
-  border-color: transparent transparent transparent black;
+  border-color: transparent transparent transparent black !important;
 }
 
 .title_s {
-  margin-bottom: 11px;
+  margin-bottom: 5px;
   font-size: 35px;
   color: black;
   text-align: center;
@@ -40,11 +40,12 @@
 
 .project_box {
   position: relative;
-  height: calc(80vh - 72px);
+  // height: inherit;
+  height: calc(80vh - 60px);
   .box_inner {
     position: absolute;
     display: flex;
-    column-gap: 15%;
+    column-gap: 13%;
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
@@ -64,6 +65,21 @@
     position: relative;
     width: 50%;
     height: inherit;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .info_project {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.5rem;
+      row-gap: 20px;
+      span {
+        font-size: 1.25rem;
+        font-weight: 600;
+      }
+      li {
+        margin-top: 5px;
+      }
+    }
   }
 }
 .num_p {
@@ -73,21 +89,39 @@
   color: rgb(219, 212, 212);
 }
 .contents_ {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .capture {
   position: relative;
-  width: 475px;
-  height: 300px;
-  margin-bottom: 20px;
+  width: 500px;
+  height: 80%;
+  margin: 30px 0 20px;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
   border-radius: 14px;
-  img {
-    overflow: hidden;
+  overflow: hidden;
+  .img_site {
     position: absolute;
     width: inherit;
+    animation-play-state: running;
+    animation-name: scrollUp;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  &:hover .img_site {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes scrollUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-56%);
   }
 }
 
@@ -100,6 +134,7 @@
     margin-bottom: 4px;
   }
 }
+
 .box_btn {
   display: flex;
   justify-content: space-between;
@@ -115,7 +150,7 @@
     cursor: pointer;
     transition: all 0.6s cubic-bezier(0, 0, 0.1, 1);
     &:hover {
-      border: 2px solid $bg;
+      border: 2px solid #000;
       background-color: #000;
       color: #fff;
       transform: translateY(-3px);
@@ -124,8 +159,8 @@
   .btn_p {
     display: inline-block;
     padding: 10px 33px;
-    border: 2px solid #fff;
-    background-color: black;
+    border: 2px solid #000;
+    background-color: #000;
     color: white;
     font-family: "Noto Sans KR", sans-serif;
     font-size: 16px;
