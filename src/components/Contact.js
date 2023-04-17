@@ -16,7 +16,7 @@ function Contact() {
       </div>
       <div className="txt_inner">
         <div>
-          <h3>Let's work together !</h3>
+          <h3>Hyeong Subscribe!</h3>
         </div>
         <div>
           <button>Contact Me!</button>

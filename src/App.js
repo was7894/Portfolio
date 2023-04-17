@@ -14,7 +14,7 @@ function App() {
         anchors={anchors}
         navigation={true}
         navigationTooltips={anchors}
-        sectionsColor={["#f9f9f9", "#f9f9f9", "#f9f9f9", "#f9f9f9"]}
+        sectionsColor={["#f9f9f9", "#fff", "#f9f9f9", "#f9f9f9"]}
         controlArrows={true}
         slidesNavigation={true}
         slidesNavPosition={"bottom"}

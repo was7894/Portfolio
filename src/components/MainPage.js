@@ -14,18 +14,18 @@ function MainPage() {
           </div>
 
           <div className="content">
-            <div className="sub_title">이번에 정차할 신입 프론트엔드 김형섭입니다.</div>
-            <div className="box_steam">
+            <div className="sub_title">발전과 발견을 중시하는 개발자</div>
+            {/* <div className="box_steam">
               <div id="up" class="steam"></div>
               <div id="up" class="steam2"></div>
-            </div>
+            </div> */}
             <div className="title">
               <span style={{ color: "white" }}>hyeong</span> seob
             </div>
 
-            <div className="contain_train">
+            {/*  <div className="contain_train">
               <div className="track"></div>
-            </div>
+            </div> */}
 
             <div className="btn_main">
               <button className="btn_white">이력서</button>

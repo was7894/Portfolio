@@ -22,6 +22,9 @@ $track: #7788994d;
 @mixin noto {
   font-family: "Noto Sans KR", sans-serif;
 }
+@mixin robo {
+  font-family: "roboto", sans-serif;
+}
 
 //portfolio box
 @mixin box_port {
