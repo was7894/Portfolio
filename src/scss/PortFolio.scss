@@ -61,7 +61,7 @@
     height: inherit;
   }
   .box_right {
-    @include box_port;
+    display: flex;
     position: relative;
     width: 50%;
     height: inherit;
@@ -71,10 +71,11 @@
       display: flex;
       flex-direction: column;
       line-height: 1.5rem;
-      row-gap: 20px;
-      span {
+      row-gap: 18px;
+      .title_ {
         font-size: 1.25rem;
         font-weight: 600;
+        margin-bottom: 10px;
       }
       li {
         margin-top: 5px;
@@ -95,7 +96,8 @@
 .capture {
   position: relative;
   width: 500px;
-  height: 80%;
+  // height: 80%;
+  height: 500px;
   margin: 30px 0 20px;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
@@ -104,15 +106,16 @@
   .img_site {
     position: absolute;
     width: inherit;
-    animation-play-state: running;
+    animation-play-state: paused;
+
     animation-name: scrollUp;
-    animation-duration: 7s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
   }
 
   &:hover .img_site {
-    animation-play-state: paused;
+    animation-play-state: running;
   }
 }
 
@@ -121,7 +124,7 @@
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-56%);
+    transform: translateY(-54%);
   }
 }
 
