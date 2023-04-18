@@ -66,7 +66,7 @@
         display: flex;
         height: 300px;
         margin-top: 35px;
-        row-gap: 25px;
+        row-gap: 30px;
         flex-direction: column;
       }
     }
@@ -86,7 +86,7 @@
   .skill_box {
     display: flex;
     box-sizing: border-box;
-    row-gap: 5px;
+    row-gap: 8px;
     flex-wrap: wrap;
     li {
       @include robo;

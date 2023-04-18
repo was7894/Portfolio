@@ -1,6 +1,16 @@
 import React from "react";
 import "../scss/About.scss";
+/* img root */
 import bg from "../images/img_about.png";
+import html from "../images/img_html.png";
+import css3 from "../images/img_css3.png";
+import jq from "../images/img_jquery.png";
+import php from "../images/img_php.png";
+import js from "../images/img_javascript.png";
+import react from "../images/img_react.png";
+import sass from "../images/img_sass.png";
+import nodejs from "../images/img_nodejs.png";
+import figma from "../images/img_figma.png";
 
 function AboutPage() {
   const photo = { backgroundImage: `url(${bg})` };
@@ -30,24 +40,42 @@ function AboutPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4>기술</h4>
-                    <ul className="skill_box">
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>jQuery</li>
-                      <li>PHP</li>
-                      <li>Javascript</li>
-                      <li>React</li>
-                      <li>SCSS</li>
-                      <li>Node.js</li>
-                      <li>Figma</li>
-                    </ul>
-                  </div>
-                  <div>
                     <h4>자격증</h4>
                     <ul>
                       <li>정보처리기사</li>
                       <li>컴퓨터활용능력2급</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4>프로그램</h4>
+                    <ul className="skill_box">
+                      <li>
+                        <img src={html} alt="html icon" /> HTML5
+                      </li>
+                      <li>
+                        <img src={css3} alt="css3 icon" /> CSS3
+                      </li>
+                      <li>
+                        <img src={js} alt="Javascript icon" /> Javascript
+                      </li>
+                      <li>
+                        <img src={jq} alt="jQuery icon" /> jQuery
+                      </li>
+                      <li>
+                        <img src={php} alt="PHP icon" /> PHP
+                      </li>
+                      <li>
+                        <img src={react} alt="React icon" /> React
+                      </li>
+                      <li>
+                        <img src={sass} alt="Sass sass" /> Sass
+                      </li>
+                      <li>
+                        <img src={nodejs} alt="Nodejs icon" /> Nodejs
+                      </li>
+                      <li>
+                        <img src={figma} alt="figma icon" /> Figma
+                      </li>
                     </ul>
                   </div>
                 </div>
