@@ -1,12 +1,12 @@
 import React from "react";
 import "../scss/Header.scss";
-
+import Logo from "../lottie/lottie";
 function Header() {
   return (
     <>
-      <div className="header">
+      <div id="header">
         <div>
-          <span>Logo</span>
+          <Logo />
         </div>
         <div className="header_gnb">
           <a href="#Home">Home</a>

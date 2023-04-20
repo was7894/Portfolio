@@ -9,13 +9,13 @@ function PortFolio() {
     <div className="section">
       <div className="slide">
         <div id="container">
-          <h1 className="title_s">projects</h1>
+          <h1 className="title_s">Solo Project</h1>
           <div className="project_box">
             <div className="box_inner">
               <div className="box_left">
                 <span className="num_p">01</span>
                 <div className="contents_">
-                  <span className="title_p">광주과학기술원</span>
+                  <span className="title_p">광주과학기술원 (관공서 페이지)</span>
                   <div className="capture">
                     <img className="img_site" src={p1} alt="" />
                   </div>
@@ -30,9 +30,9 @@ function PortFolio() {
                     </ul>
                   </div>
                   <div>
-                    <h5 className="title_">작업기간 / 기여도</h5>
+                    <h5 className="title_">기여도 / 작업기간 </h5>
                     <ul>
-                      <li>- 4주 / 100%</li>
+                      <li>- 100% / 4주 </li>
                     </ul>
                   </div>
                   <div>
@@ -45,7 +45,7 @@ function PortFolio() {
                       <li>- 구글 애널리틱스 적용하여 방문자의 데이터 웹 로그 분석 가능</li>
                       <li>- 공공데이터포털 api를 활용하여 기상정보 및 대기환경 정보 파싱</li>
                       <li>
-                        - Mysql과 연동하여 PHP 게시판 CRUD 구현{" "}
+                        - Mysql과 연동하여 PHP 게시판 CRUD 구현
                         <a href="http://wa7894.dothome.co.kr/pro1_ver2/board.php">
                           <i>(배포서버:dothome)</i>
                         </a>
@@ -96,13 +96,13 @@ function PortFolio() {
       </div>
       <div className="slide">
         <div id="container">
-          <h1 className="title_s">projects</h1>
+          <h1 className="title_s">Team Project 01</h1>
           <div className="project_box">
             <div className="box_inner">
               <div className="box_left">
                 <span className="num_p">02</span>
                 <div className="contents_">
-                  <span className="title_p">ANBD</span>
+                  <span className="title_p">ANBD (리액트 쇼핑몰)</span>
                   <div className="capture">
                     <img className="img_site" src={p2} alt="" />
                   </div>
@@ -117,9 +117,9 @@ function PortFolio() {
                     </ul>
                   </div>
                   <div>
-                    <h5 className="title_">팀인원수 / 기여도/ 작업기간</h5>
+                    <h5 className="title_">팀인원수 / 기여도 / 작업기간 </h5>
                     <ul>
-                      <li>- 4명 / 50% / 3주</li>
+                      <li>- 4명 / 50% / 3주 </li>
                     </ul>
                   </div>
                   <div>
@@ -181,13 +181,13 @@ function PortFolio() {
       </div>
       <div className="slide">
         <div id="container">
-          <h1 className="title_s">projects</h1>
+          <h1 className="title_s">Team Project 02</h1>
           <div className="project_box">
             <div className="box_inner">
               <div className="box_left">
                 <span className="num_p">03</span>
                 <div className="contents_">
-                  <span className="title_p">YORI JORI</span>
+                  <span className="title_p">YORIJORI (레시피 추천 사이트)</span>
                   <div className="capture">
                     <img className="img_site" src={p3} alt="project3 image" />
                   </div>
@@ -198,13 +198,13 @@ function PortFolio() {
                   <div>
                     <h5 className="title_">사용 프로그램</h5>
                     <ul>
-                      <li style={{ letterSpacing: "1px" }}>- HTML, SCSS, bootstrap, Javascript </li>
+                      <li style={{ letterSpacing: "1px" }}>- HTML, SCSS, Bootstrap, Javascript </li>
                     </ul>
                   </div>
                   <div>
                     <h5 className="title_">팀인원수 / 기여도 / 작업기간</h5>
                     <ul>
-                      <li>- 5명 / 2주 / 30%</li>
+                      <li>- 5명 / 30% / 2주</li>
                     </ul>
                   </div>
                   <div>
@@ -235,7 +235,7 @@ function PortFolio() {
                     type="button"
                     className="btn_n"
                     onClick={() => {
-                      window.open("https://github.com/was7894/project_1");
+                      window.open("https://github.com/kimminjung96/YORIJORI");
                     }}
                   >
                     깃허브보기
@@ -244,7 +244,7 @@ function PortFolio() {
                     type="button"
                     className="btn_n"
                     onClick={() => {
-                      window.open("http://wa7894.dothome.co.kr/pro1_ver2/board.php");
+                      window.open("https://drive.google.com/file/d/1IRXlQxAo6fJxmf3fEp0DNBGyAKjgfFa6/view?usp=sharing");
                     }}
                   >
                     기획서보기
@@ -253,7 +253,7 @@ function PortFolio() {
                     type="button"
                     className="btn_p"
                     onClick={() => {
-                      window.open("https://was7894.github.io/project_1/");
+                      window.open("https://kimminjung96.github.io/YORIJORI/");
                     }}
                   >
                     사이트보기
