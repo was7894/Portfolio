@@ -10,7 +10,7 @@ function PortFolio() {
       <div className="bg_secp">
         <div className="slide">
           <div id="container">
-            <h1 className="title_s">Solo Project</h1>
+            <h1 className="title_s screen_out">광주과학기술원 project</h1>
             <div className="project_box">
               <div className="box_inner">
                 <div className="box_left">
@@ -96,7 +96,7 @@ function PortFolio() {
         </div>
         <div className="slide">
           <div id="container">
-            <h1 className="title_s">Team Project 01</h1>
+            <h1 className="title_s screen_out">ANBD 리액트 쇼핑몰 팀프로젝트</h1>
             <div className="project_box">
               <div className="box_inner">
                 <div className="box_left">
@@ -180,7 +180,7 @@ function PortFolio() {
         </div>
         <div className="slide">
           <div id="container">
-            <h1 className="title_s">Team Project 02</h1>
+            <h1 className="title_s screen_out">Bootstrap YORIJORI 레시피추천사이트 프로젝트</h1>
             <div className="project_box">
               <div className="box_inner">
                 <div className="box_left">
