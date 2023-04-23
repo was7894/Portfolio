@@ -3,6 +3,42 @@
 #container {
   @include container;
 
+  @mixin tit_effect {
+    .overlay_effect {
+      position: absolute;
+      z-index: 3;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+
+      &::before {
+        content: "";
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        -webkit-animation: anim 2.5s cubic-bezier(0.77, 0, 0.175, 1) both;
+        animation: anim 2.5s cubic-bezier(0.77, 0, 0.175, 1) both;
+        background-color: hsla(0, 0%, 100%, 0.4);
+        z-index: 2;
+      }
+
+      &::after {
+        content: "";
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #f9f9f9;
+        -webkit-animation: anim2 2s cubic-bezier(0.77, 0, 0.175, 1) both;
+        animation: anim2 2s cubic-bezier(0.77, 0, 0.175, 1) both;
+      }
+    }
+  }
+
   .background {
     .img_photo1 {
       position: absolute;
@@ -37,95 +73,79 @@
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: blue;
       }
+      @include tit_effect;
     }
     .sub_title {
+      position: relative;
+      overflow: hidden;
+      width: 318px;
       color: #555;
       font-size: 25px;
       font-weight: 600;
+
+      @include tit_effect;
     }
   }
 }
 
-/* .contain_train {
-  position: relative;
-  top: -26px;
-  width: 510px;
-  height: 10px;
-  overflow: hidden;
-
-  .track {
-    position: absolute;
-    width: 513px;
-    height: 5px;
-    background-color: #7788994d;
-    top: 0;
-  }
-
-  .track:before {
-    content: "";
-    position: absolute;
-    width: 10px;
-    height: 5px;
-    background-color: $track;
-    top: 4px;
-    box-shadow: 20px 0 $track, -20px 0 $track, -40px 0 $track, -60px 0 $track, -80px 0 $track, 40px 0 $track, 60px 0 $track, 80px 0 $track, 100px 0 $track, 120px 0 $track, 140px 0 $track, 160px 0 $track, 180px 0 $track, 200px 0 $track, 220px 0 $track, 240px 0 $track, 260px 0 $track, 280px 0 $track,
-      300px 0 $track, 320px 0 $track, 340px 0 $track, 360px 0 $track, 380px 0 $track, 400px 0 $track, 420px 0 $track, 440px 0 $track, -100px 0 $track, -120px 0 $track, -140px 0 $track, 460px 0 $track, 480px 0 $track, 500px 0 $track, 520px 0 $track;
-    animation: move 5s linear infinite reverse;
-  }
-}
-@keyframes up {
+@-webkit-keyframes anim {
   0% {
-    transform: translateY(0) translateX(0) scale(0.5);
-    opacity: 1;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
   }
-  100% {
-    transform: translateY(-110px) translateX(-80px) scale(1.5);
-    opacity: 0.2;
-  }
-}
 
-@keyframes move {
-  from {
-    left: -100px;
+  50% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
   }
+
   to {
-    left: 100px;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
   }
 }
 
-#up {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background-color: $point;
-  border-radius: 50%;
-  opacity: 0;
-  top: -10px;
-  right: 5%;
-}
-.box_steam {
-  position: relative;
-  height: 0;
-  .steam {
-    animation: up 2.5s ease-out infinite;
+@keyframes anim {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
   }
 
-  .steam2 {
-    animation: up 1.7s ease-out infinite 1s;
+  50% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
   }
 
-  .steam2:before {
-    content: "";
-    position: absolute;
-    left: 5px;
-    width: 15px;
-    height: 15px;
-    background-color: $point;
-    border-radius: 50%;
-    top: 20px;
+  to {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
   }
 }
- */
+
+@-webkit-keyframes anim2 {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  to {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+
+@keyframes anim2 {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  to {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+
 .btn_main {
   display: flex;
   margin-top: 15px;

@@ -35,7 +35,7 @@ function AboutPage() {
                   <div>
                     <h4>교육</h4>
                     <ul>
-                      <li>강원대학교 컴퓨터 정보통신 공학</li>
+                      <li>강원대학교 컴퓨터정보통신 공학</li>
                       <li>그린컴퓨터아카데미 프론트과정 수료</li>
                     </ul>
                   </div>
@@ -47,7 +47,7 @@ function AboutPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4>프로그램</h4>
+                    <h4>사용기술</h4>
                     <ul className="skill_box">
                       <li>
                         <img src={html} alt="html icon" /> HTML5
@@ -56,7 +56,7 @@ function AboutPage() {
                         <img src={css3} alt="css3 icon" /> CSS3
                       </li>
                       <li>
-                        <img src={js} alt="Javascript icon" /> Javascript
+                        <img src={js} alt="Javascript icon" /> JavaScript
                       </li>
                       <li>
                         <img src={jq} alt="jQuery icon" /> jQuery

@@ -9,7 +9,7 @@ function Contact() {
   return (
     <div className=" section section_last" style={{ height: "55vh !important" }}>
       <div className="shape_top">
-        <img src={paper} />
+        <img src={paper} alt="paper" />
       </div>
       <div className="sec4_bg" style={photo}>
         <div className="overlay"></div>

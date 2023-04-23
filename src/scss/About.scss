@@ -76,7 +76,7 @@
 .about_contents {
   h4 {
     font-size: 22px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
   }
   ul li {
     font-size: 17px;
@@ -89,8 +89,13 @@
     row-gap: 8px;
     flex-wrap: wrap;
     li {
+      display: flex;
       @include robo;
       width: 33.33%;
+      font-size: 16px;
+      img {
+        margin-right: 10px;
+      }
     }
   }
 }

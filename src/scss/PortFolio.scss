@@ -12,14 +12,20 @@
 }
 
 #fp-nav ul li .fp-tooltip {
-  color: black !important;
+  color: #9e2323 !important;
 }
 
 .fp-arrow.fp-prev {
   border-color: transparent black transparent transparent !important;
+  &:hover {
+    border-color: transparent #9e2323 transparent transparent !important;
+  }
 }
 .fp-arrow.fp-next {
   border-color: transparent transparent transparent black !important;
+  &:hover {
+    border-color: transparent transparent transparent #9e2323 !important;
+  }
 }
 
 .title_s {
@@ -33,9 +39,9 @@
 
 .title_p {
   @include noto;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
-  color: rgb(146, 143, 143);
+  color: #818080;
 }
 
 .project_box {
@@ -45,7 +51,7 @@
   .box_inner {
     position: absolute;
     display: flex;
-    column-gap: 13%;
+    column-gap: 8%;
     top: 50%;
     margin-top: 5%;
     transform: translateY(-50%);
@@ -67,15 +73,17 @@
     width: 50%;
     height: inherit;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    row-gap: 40px;
     .info_project {
       display: flex;
+      // height: 70%;
       flex-direction: column;
       margin-top: 10px;
       line-height: 1.5rem;
-      row-gap: 18px;
+      row-gap: 30px;
       .title_ {
-        font-size: 1.25rem;
+        font-size: 20px;
         font-weight: 600;
         margin-bottom: 10px;
       }
@@ -87,7 +95,7 @@
 }
 .num_p {
   @include popin;
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 800;
   color: rgb(219, 212, 212);
 }
@@ -97,15 +105,15 @@
 
 .capture {
   position: relative;
-  width: 500px;
-  // height: 80%;
-  height: 540px;
+  width: 450px;
+  height: 80%;
+  // height: 85%;
   margin: 30px 0 20px;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
   border-radius: 14px;
   overflow: hidden;
-  .img_site {
+  /*  .img_site {
     position: absolute;
     width: inherit;
     animation-play-state: paused;
@@ -118,7 +126,7 @@
 
   &:hover .img_site {
     animation-play-state: running;
-  }
+  } */
 }
 
 @keyframes scrollUp {
@@ -142,7 +150,8 @@
 
 .box_btn {
   display: flex;
-  justify-content: space-between;
+  column-gap: 20px;
+  // justify-content: space-between;
 
   .btn_n {
     display: inline-block;
@@ -182,5 +191,40 @@
 .bg_secp {
   height: inherit;
   background: url("../images/Projects.png") no-repeat;
-  background-position: center 12%;
+  background-position: center 100px;
+}
+
+.bg {
+  position: relative;
+  width: inherit;
+  height: 100%;
+  background-color: skyblue;
+  overflow: hidden;
+}
+
+.thumb {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  transition: top 7s;
+}
+
+.thumb span {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 1000px;
+  background-size: cover;
+}
+.thumb .span2 {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2550px;
+  background-size: cover;
 }
