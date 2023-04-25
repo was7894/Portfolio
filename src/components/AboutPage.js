@@ -1,7 +1,7 @@
 import React from "react";
 import "../scss/About.scss";
 /* img root */
-import bg from "../images/img_about.png";
+import bg from "../images/img_2.png";
 import html from "../images/img_html.png";
 import css3 from "../images/img_css3.png";
 import jq from "../images/img_jquery.png";

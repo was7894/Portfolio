@@ -68,7 +68,7 @@ function PortFolio() {
                           thumb.current.style.top = 0;
                         }}
                       >
-                        <a ref={thumb} href="https://was7894.github.io/project_1/" target="_blank" className="thumb">
+                        <a ref={thumb} href="https://was7894.github.io/project_1/" target="_blank" className="thumb" rel="noreferrer">
                           <span ref={img} style={pro1}></span>
                         </a>
                       </div>
@@ -98,31 +98,31 @@ function PortFolio() {
                         <li>- 푸터 퀵 메뉴를 확인할 수 있는 Non-Modal 노출 기능 구현</li>
                         <li>
                           -
-                          <a href="https://analytics.google.com/analytics/web/?hl=ko&pli=1#/p346910606/reports/reportinghub?params=_u..nav%3Dmaui" target="_blank">
+                          <a href="https://analytics.google.com/analytics/web/?hl=ko&pli=1#/p346910606/reports/reportinghub?params=_u..nav%3Dmaui" target="_blank" rel="noreferrer">
                             구글 애널리틱스
                           </a>
                           적용하여 방문자의 데이터 웹 로그 분석 가능
                         </li>
                         <li>
                           -
-                          <a href="https://www.data.go.kr/data/15084084/openapi.do" target="_blank">
+                          <a href="https://www.data.go.kr/data/15084084/openapi.do" target="_blank" rel="noreferrer">
                             공공데이터포털
                           </a>
                           api를 활용하여 기상정보 및 대기환경 정보 파싱
                         </li>
                         <li>
                           - Mysql과 연동하여
-                          <a href="http://wa7894.dothome.co.kr/pro1_ver2/board.php" target="_blank">
+                          <a href="http://wa7894.dothome.co.kr/pro1_ver2/board.php" target="_blank" rel="noreferrer">
                             PHP 게시판
                           </a>
                           CRUD 구현
-                          <a href="https://www.dothome.co.kr/" target="_blank">
+                          <a href="https://www.dothome.co.kr/" target="_blank" rel="noreferrer">
                             <i>(호스팅:dothome)</i>
                           </a>
                         </li>
                         <li>
                           -{" "}
-                          <a href="http://wa7894.dothome.co.kr/pro1_ver2/login.php" target="_blank">
+                          <a href="http://wa7894.dothome.co.kr/pro1_ver2/login.php" target="_blank" rel="noreferrer">
                             PHP로그인/로그아웃 구현
                           </a>
                         </li>
@@ -183,7 +183,7 @@ function PortFolio() {
                           thumb2.current.style.top = 0;
                         }}
                       >
-                        <a ref={thumb2} href="https://anbd.vercel.app/" target="_blank" className="thumb">
+                        <a ref={thumb2} href="https://anbd.vercel.app/" target="_blank" rel="noreferrer" className="thumb">
                           <span ref={img2} style={pro2} className="span2"></span>
                         </a>
                       </div>
@@ -219,7 +219,7 @@ function PortFolio() {
                         <li>
                           - 팀 대표로 프로젝트 깃허브 협업 관리 및 배포 사이트와 연동 <br />
                           (pront - vercel,{" "}
-                          <a href="https://port-0-anbd-db-sever-6g2llfcbue07.sel3.cloudtype.app/" target="_blank">
+                          <a href="https://port-0-anbd-db-sever-6g2llfcbue07.sel3.cloudtype.app/" target="_blank" rel="noreferrer">
                             server - cloudtype
                           </a>
                           )
@@ -281,7 +281,7 @@ function PortFolio() {
                           thumb3.current.style.top = 0;
                         }}
                       >
-                        <a ref={thumb3} href="https://kimminjung96.github.io/YORIJORI/" target="_blank" className="thumb">
+                        <a ref={thumb3} href="https://kimminjung96.github.io/YORIJORI/" target="_blank" rel="noreferrer" className="thumb">
                           <span ref={img3} style={pro3}></span>
                         </a>
                       </div>
@@ -308,7 +308,7 @@ function PortFolio() {
                         <li>- 랜덤섹션 구현(javascript로 랜덤카드 출력 및 중복 출력 제어)</li>
                         <li>
                           - async/await 해외 api 활용하여 음식 영양소 및 이미지 화면 출력
-                          <a href="https://www.edamam.com/" target="_blank">
+                          <a href="https://www.edamam.com/" target="_blank" rel="noreferrer">
                             <i>(api : adamam)</i>
                           </a>
                         </li>
@@ -344,6 +344,21 @@ function PortFolio() {
                     >
                       사이트보기
                     </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="slide">
+          <div id="container">
+            <h1 className="title_s screen_out">학교졸업작품 설계기획서</h1>
+            <div className="project_box">
+              <div className="box_inner">
+                <div className="box_left">
+                  <span className="num_p">04</span>
+                  <div className="contents_">
+                    <span className="title_p">졸업작품 기획서</span>
                   </div>
                 </div>
               </div>

@@ -6,31 +6,35 @@
   .inner {
     position: absolute;
     display: flex;
-    column-gap: 100px;
+    /* column-gap: 10px; */
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
-    height: 510px;
-    align-items: center;
+    height: 506px;
+    justify-content: space-evenly;
   }
 }
 
 .inner {
   .left {
     position: relative;
-    width: 40%;
+    width: 300px;
     height: inherit;
-    padding-right: 50px;
+    // padding-right: 50px;
     .img_about {
       position: absolute;
       top: 0;
       left: 0;
       bottom: 0;
       right: 0;
+      height: 450px;
+      margin-top: 35px;
       background-repeat: no-repeat;
       background-size: cover;
+      background-position: center;
       box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
       box-sizing: border-box;
+      border-radius: 30px;
     }
   }
 

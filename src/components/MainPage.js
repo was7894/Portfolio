@@ -1,6 +1,8 @@
 import React from "react";
 import "../scss/MainPage.scss";
-import bg from "../images/img_photo.png";
+// import bg from "../images/img_photo.png";
+// import bg from "../images/img_mp.png";
+import bg from "../images/bg_main.png";
 
 function MainPage() {
   const photo = { backgroundImage: `url(${bg})` };
