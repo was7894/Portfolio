@@ -57,9 +57,6 @@ function PortFolio() {
                   <span className="num_p">01</span>
                   <div className="contents_">
                     <span className="title_p">광주과학기술원 (관공서 페이지)</span>
-                    {/* <div className="capture">
-                      <img className="img_site" src={p1} alt="" />
-                    </div> */}
                     <div className="capture">
                       <div
                         ref={bg}
@@ -71,7 +68,7 @@ function PortFolio() {
                           thumb.current.style.top = 0;
                         }}
                       >
-                        <a ref={thumb} href="#none" className="thumb">
+                        <a ref={thumb} href="https://was7894.github.io/project_1/" target="_blank" className="thumb">
                           <span ref={img} style={pro1}></span>
                         </a>
                       </div>
@@ -98,30 +95,39 @@ function PortFolio() {
                         {/* <li>- 웹 표준을 고려한 시멘틱 마크업 설계 </li> */}
                         <li>- PC와 모바일 대응이 가능한 반응형 웹 적용 </li>
                         <li>- jQury, javascript 를 이용하여 각각 슬라이드 구현</li>
-                        <li>- 푸터 퀵 메뉴를 확인할 수 있는 모달창 노출 기능 구현</li>
+                        <li>- 푸터 퀵 메뉴를 확인할 수 있는 Non-Modal 노출 기능 구현</li>
                         <li>
-                          - <a href="https://analytics.google.com/analytics/web/?hl=ko&pli=1#/p346910606/reports/reportinghub?params=_u..nav%3Dmaui">구글 애널리틱스</a> 적용하여 방문자의 데이터 웹 로그 분석 가능
+                          -
+                          <a href="https://analytics.google.com/analytics/web/?hl=ko&pli=1#/p346910606/reports/reportinghub?params=_u..nav%3Dmaui" target="_blank">
+                            구글 애널리틱스
+                          </a>
+                          적용하여 방문자의 데이터 웹 로그 분석 가능
                         </li>
                         <li>
-                          - <a href="https://www.data.go.kr/data/15084084/openapi.do">공공데이터포털</a> api를 활용하여 기상정보 및 대기환경 정보 파싱
+                          -
+                          <a href="https://www.data.go.kr/data/15084084/openapi.do" target="_blank">
+                            공공데이터포털
+                          </a>
+                          api를 활용하여 기상정보 및 대기환경 정보 파싱
                         </li>
                         <li>
-                          - Mysql과 연동하여 <a href="http://wa7894.dothome.co.kr/pro1_ver2/board.php">PHP 게시판</a> CRUD 구현
-                          <a href="https://www.dothome.co.kr/">
+                          - Mysql과 연동하여
+                          <a href="http://wa7894.dothome.co.kr/pro1_ver2/board.php" target="_blank">
+                            PHP 게시판
+                          </a>
+                          CRUD 구현
+                          <a href="https://www.dothome.co.kr/" target="_blank">
                             <i>(호스팅:dothome)</i>
                           </a>
                         </li>
                         <li>
-                          - <a href="http://wa7894.dothome.co.kr/pro1_ver2/login.php">PHP로그인/로그아웃 구현</a>
+                          -{" "}
+                          <a href="http://wa7894.dothome.co.kr/pro1_ver2/login.php" target="_blank">
+                            PHP로그인/로그아웃 구현
+                          </a>
                         </li>
                       </ul>
                     </div>
-                    {/*  <div>
-                      <h5 className="title_">느낀점</h5>
-                      <ul>
-                        <li>프론트엔드 첫 포트폴리오 프로젝트 입니다. 화면에 보여지는 것을 기준으로 하는 것이 아닌 처음이니 만큼 웹 표준을 고려한 마크업 설계를 많이 고민할 수 있었고, PC와 모바일 환경에서 모두 대응할 수 있도록 반응형 디자인을 적용한 프로젝트 입니다.</li>
-                      </ul>
-                    </div> */}
                   </div>
                   <div className="box_btn">
                     <button
@@ -167,7 +173,6 @@ function PortFolio() {
                   <div className="contents_">
                     <span className="title_p">ANBD (리액트 쇼핑몰)</span>
                     <div className="capture">
-                      {/* <img className="img_site" src={p2} alt="" /> */}
                       <div
                         ref={bg2}
                         className="bg"
@@ -178,7 +183,7 @@ function PortFolio() {
                           thumb2.current.style.top = 0;
                         }}
                       >
-                        <a ref={thumb2} href="#none" className="thumb">
+                        <a ref={thumb2} href="https://anbd.vercel.app/" target="_blank" className="thumb">
                           <span ref={img2} style={pro2} className="span2"></span>
                         </a>
                       </div>
@@ -213,16 +218,14 @@ function PortFolio() {
                         </li>
                         <li>
                           - 팀 대표로 프로젝트 깃허브 협업 관리 및 배포 사이트와 연동 <br />
-                          (pront - vercel, <a href="https://port-0-anbd-db-sever-6g2llfcbue07.sel3.cloudtype.app/">server - cloudtype</a>)
+                          (pront - vercel,{" "}
+                          <a href="https://port-0-anbd-db-sever-6g2llfcbue07.sel3.cloudtype.app/" target="_blank">
+                            server - cloudtype
+                          </a>
+                          )
                         </li>
                       </ul>
                     </div>
-                    {/*  <div>
-                      <h5 className="title_">느낀점</h5>
-                      <ul>
-                        <li>이 프로젝트는 프론트엔드 분야에서 처음으로 작업한 포트폴리오입니다. 처음이니 만큼 화면에 보여지는 것을 기준으로 하는 것이 아닌 웹 표준을 고려한 마크업 설계를 많이 고민할 수 있었고, PC와 모바일 환경에서 모두 대응할 수 있도록 반응형 디자인을 적용한 프로젝트 입니다.</li>
-                      </ul>
-                    </div> */}
                   </div>
                   <div className="box_btn">
                     <button
@@ -268,7 +271,6 @@ function PortFolio() {
                   <div className="contents_">
                     <span className="title_p">YORIJORI (레시피 추천 사이트)</span>
                     <div className="capture">
-                      {/* <img className="img_site" src={p3} alt="" /> */}
                       <div
                         ref={bg3}
                         className="bg"
@@ -279,7 +281,7 @@ function PortFolio() {
                           thumb3.current.style.top = 0;
                         }}
                       >
-                        <a ref={thumb3} href="#none" className="thumb">
+                        <a ref={thumb3} href="https://kimminjung96.github.io/YORIJORI/" target="_blank" className="thumb">
                           <span ref={img3} style={pro3}></span>
                         </a>
                       </div>
@@ -306,23 +308,13 @@ function PortFolio() {
                         <li>- 랜덤섹션 구현(javascript로 랜덤카드 출력 및 중복 출력 제어)</li>
                         <li>
                           - async/await 해외 api 활용하여 음식 영양소 및 이미지 화면 출력
-                          <a href="https://www.edamam.com/">
+                          <a href="https://www.edamam.com/" target="_blank">
                             <i>(api : adamam)</i>
                           </a>
                         </li>
                         <li>- Bootstrap과 SCSS를 활용한 반응형 페이지 구현</li>
                       </ul>
                     </div>
-                    {/* <div>
-                      <h5 className="title_">느낀점</h5>
-                      <ul>
-                        <li>
-                          프론트엔드 첫 포트폴리오 프로젝트 입니다. <br />
-                          처음이니 만큼 화면에 보여지는 것을 기준으로 하는 것이 아닌 <br />웹 표준을 고려한 마크업 설계를 많이 고민할 수 있었고, <br />
-                          PC와 모바일 환경에서 모두 대응할 수 있도록 반응형 디자인을 적용한 프로젝트 입니다.
-                        </li>
-                      </ul>
-                    </div> */}
                   </div>
                   <div className="box_btn">
                     <button

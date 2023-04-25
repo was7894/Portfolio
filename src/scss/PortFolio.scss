@@ -107,26 +107,12 @@
   position: relative;
   width: 450px;
   height: 80%;
-  // height: 85%;
+
   margin: 30px 0 20px;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
   border-radius: 14px;
   overflow: hidden;
-  /*  .img_site {
-    position: absolute;
-    width: inherit;
-    animation-play-state: paused;
-
-    animation-name: scrollUp;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  }
-
-  &:hover .img_site {
-    animation-play-state: running;
-  } */
 }
 
 @keyframes scrollUp {
