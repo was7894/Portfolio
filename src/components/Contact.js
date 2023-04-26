@@ -34,12 +34,16 @@ function Contact() {
       </div>
       <div className="txt_inner">
         <div>
-          <h3>Hyeong Subscribe!</h3>
+          <h3>
+            Hyeong <br />
+            Subscribe!
+          </h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam soluta distinctio beatae facilis, numquam illo, porro</p>
         </div>
 
-        <div>
+        {/*        <div>
           <button>Contact Me!</button>
-        </div>
+        </div> */}
 
         {/* 이메일 양식 */}
         <form ref={form} onSubmit={sendEmail} className="form_email">
