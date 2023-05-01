@@ -1,12 +1,11 @@
 import React, { useRef } from "react";
 import "../scss/Contact.scss";
-import bg from "../images/img_temporary.jpg";
+import bg from "../images/bg_bulb.jpg";
 import paper from "../images/img_paper.svg";
 import emailjs from "@emailjs/browser";
 
 function Contact() {
   const photo = { backgroundImage: `url(${bg})` };
-
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -38,20 +37,21 @@ function Contact() {
             Hyeong <br />
             Subscribe!
           </h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam soluta distinctio beatae facilis, numquam illo, porro</p>
-        </div>
 
-        {/*        <div>
-          <button>Contact Me!</button>
-        </div> */}
+          <div>
+            <p>저의 포트폴리오를 봐 주셔서 감사합니다.</p>
+            <p>항상 열정을 잃지않는 신입이 되도록 노력하겠습니다.</p>
+            <p>궁금하신 사항이 있거나 빠른답변을 원하시면 오른쪽 이메일로 보내주시면 감사하겠습니다.</p>
+          </div>
+        </div>
 
         {/* 이메일 양식 */}
         <form ref={form} onSubmit={sendEmail} className="form_email">
-          <label>보내시는분</label>
+          <label>보내시는 분 성함</label>
           <input type="text" name="user_name" className="input_email" required />
-          <label>Email주소</label>
+          <label>이메일 주소</label>
           <input type="email" name="user_email" className="input_email" required />
-          <label>메시지</label>
+          <label>보내고 싶은 메시지</label>
           <textarea name="message" className="input_email" required />
           <input type="submit" value="보내기" className="send_email" />
         </form>

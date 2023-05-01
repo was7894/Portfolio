@@ -107,12 +107,37 @@
   position: relative;
   width: 450px;
   height: 80%;
-
   margin: 30px 0 20px;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
   border-radius: 14px;
   overflow: hidden;
+}
+
+.video_box {
+  position: relative;
+  width: 260px;
+  height: 88%;
+  margin: 15px 0 20px 50px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  border-radius: 35px;
+  overflow: hidden;
+  .video_anbd {
+    width: 260px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .video_box {
+    width: 230px;
+    height: 92%;
+    margin: 2px 0 0px 140px;
+
+    .video_anbd {
+      width: 230px;
+    }
+  }
 }
 
 @keyframes scrollUp {

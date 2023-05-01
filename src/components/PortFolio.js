@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "../scss/PortFolio.scss";
 import p1 from "../images/port_gist.png";
-import p2 from "../images/port_anbd.png";
+import p21 from "../images/play_anbd.mp4";
 import p3 from "../images/port_yorijori.png";
 
 function PortFolio() {
@@ -9,16 +9,11 @@ function PortFolio() {
   const thumb = useRef(null);
   const img = useRef(null);
 
-  const bg2 = useRef(null);
-  const thumb2 = useRef(null);
-  const img2 = useRef(null);
-
   const bg3 = useRef(null);
   const thumb3 = useRef(null);
   const img3 = useRef(null);
 
   const pro1 = { backgroundImage: `url(${p1})` };
-  const pro2 = { backgroundImage: `url(${p2})` };
   const pro3 = { backgroundImage: `url(${p3})` };
 
   function scroll() {
@@ -26,14 +21,6 @@ function PortFolio() {
     const imgH = img.current.clientHeight;
     const scrollVal = bgH - imgH;
     thumb.current.style.top = scrollVal + "px";
-    console.log(bgH, imgH, scrollVal);
-  }
-
-  function scroll2() {
-    const bgH = bg2.current.clientHeight;
-    const imgH = img2.current.clientHeight;
-    const scrollVal = bgH - imgH;
-    thumb2.current.style.top = scrollVal + "px";
     console.log(bgH, imgH, scrollVal);
   }
 
@@ -171,22 +158,9 @@ function PortFolio() {
                 <div className="box_left">
                   <span className="num_p">02</span>
                   <div className="contents_">
-                    <span className="title_p">ANBD (리액트 쇼핑몰)</span>
-                    <div className="capture">
-                      <div
-                        ref={bg2}
-                        className="bg"
-                        onMouseOver={() => {
-                          scroll2();
-                        }}
-                        onMouseLeave={() => {
-                          thumb2.current.style.top = 0;
-                        }}
-                      >
-                        <a ref={thumb2} href="https://anbd.vercel.app/" target="_blank" rel="noreferrer" className="thumb">
-                          <span ref={img2} style={pro2} className="span2"></span>
-                        </a>
-                      </div>
+                    <span className="title_p">ANBD (리액트 쇼핑몰 - 웹 앱)</span>
+                    <div className="video_box">
+                      <video className="video_anbd" src={p21} muted controls></video>
                     </div>
                   </div>
                 </div>

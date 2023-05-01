@@ -27,8 +27,24 @@ function MainPage() {
             </div>
 
             <div className="btn_main">
-              <button className="btn_white">이력서</button>
-              <button className="btn_black">깃허브</button>
+              <button
+                type="button"
+                className="btn_white"
+                onClick={() => {
+                  window.open("https://docs.google.com/document/d/1MiU-XKGUkq9cpLf9lCkEGD_3-5OQL9RW/edit?usp=sharing&ouid=106889525398445370472&rtpof=true&sd=true");
+                }}
+              >
+                이력서
+              </button>
+              <button
+                type="button"
+                className="btn_black"
+                onClick={() => {
+                  window.open("https://github.com/was7894");
+                }}
+              >
+                깃허브
+              </button>
             </div>
           </div>
         </div>

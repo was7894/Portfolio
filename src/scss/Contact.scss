@@ -3,7 +3,7 @@
   position: absolute;
   z-index: 2;
   width: 100%;
-  top: 0;
+  top: -1px;
   left: 0;
 
   img {
@@ -19,7 +19,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-position: 50%;
+  background-position: 0 115%;
   background-repeat: no-repeat;
   background-size: cover;
   .overlay {
@@ -29,7 +29,7 @@
     right: 0;
     bottom: 0;
     height: inherit;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.85);
     z-index: 1;
   }
 }
@@ -49,12 +49,19 @@
     margin-bottom: 20px;
     font-size: 55px;
     font-weight: 800;
+    -webkit-text-stroke: 1px blue;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: blue;
   }
-  p {
-    width: 310px;
-    color: #fff;
-    font-size: 17px;
-    text-align: center;
+
+  div {
+    width: 380px;
+    p {
+      line-height: 33px;
+      color: #fff;
+      font-size: 17px;
+      text-align: center;
+    }
   }
 
   form {
