@@ -38,10 +38,29 @@
   display: flex;
   position: relative;
   width: 100%;
+  margin-bottom: 5px;
   z-index: 3;
   align-items: center;
   column-gap: 50px;
   justify-content: center;
+
+  .cir_contact {
+    position: relative;
+    border: 3px solid yellow;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 5px auto;
+
+    .img_cont {
+      position: absolute;
+      left: -17px;
+      top: -9px;
+      width: 120px;
+    }
+  }
 
   h3 {
     @include popin;
@@ -55,11 +74,11 @@
   }
 
   div {
-    width: 380px;
+    width: 393px;
     p {
       line-height: 33px;
       color: #fff;
-      font-size: 17px;
+      font-size: 18px;
       text-align: center;
     }
   }

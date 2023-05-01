@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import "../scss/Contact.scss";
 import bg from "../images/bg_bulb.jpg";
+import cont from "../images/img_contact.png";
 import paper from "../images/img_paper.svg";
 import emailjs from "@emailjs/browser";
 
@@ -31,20 +32,24 @@ function Contact() {
       <div className="sec4_bg" style={photo}>
         <div className="overlay"></div>
       </div>
-      <div className="txt_inner">
-        <div>
-          <h3>
-            Hyeong <br />
-            Subscribe!
-          </h3>
 
+      <div className="txt_inner">
+        <h3>
+          Hyeong <br />
+          Subscribe!
+          <br />
+        </h3>
+
+        <div>
+          <div className="cir_contact">
+            <img className="img_cont" src={cont} alt="contact profile" />
+          </div>
           <div>
             <p>저의 포트폴리오를 봐 주셔서 감사합니다.</p>
             <p>항상 열정을 잃지않는 신입이 되도록 노력하겠습니다.</p>
             <p>궁금하신 사항이 있거나 빠른답변을 원하시면 오른쪽 이메일로 보내주시면 감사하겠습니다.</p>
           </div>
         </div>
-
         {/* 이메일 양식 */}
         <form ref={form} onSubmit={sendEmail} className="form_email">
           <label>보내시는 분 성함</label>

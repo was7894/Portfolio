@@ -192,7 +192,7 @@ function PortFolio() {
                         </li>
                         <li>
                           - 팀 대표로 프로젝트 깃허브 협업 관리 및 배포 사이트와 연동 <br />
-                          (pront - vercel,{" "}
+                          (pront - vercel
                           <a href="https://port-0-anbd-db-sever-6g2llfcbue07.sel3.cloudtype.app/" target="_blank" rel="noreferrer">
                             server - cloudtype
                           </a>
@@ -324,7 +324,7 @@ function PortFolio() {
             </div>
           </div>
         </div>
-        <div className="slide">
+        {/*  <div className="slide">
           <div id="container">
             <h1 className="title_s screen_out">학교졸업작품 설계기획서</h1>
             <div className="project_box">
@@ -338,7 +338,7 @@ function PortFolio() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
