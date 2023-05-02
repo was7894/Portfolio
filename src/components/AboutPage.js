@@ -50,28 +50,28 @@ function AboutPage() {
                     <h4>사용기술</h4>
                     <ul className="skill_box">
                       <li>
+                        <img src={react} alt="React icon" /> React
+                      </li>
+                      <li>
+                        <img src={nodejs} alt="Nodejs icon" /> Nodejs
+                      </li>
+                      <li>
+                        <img src={js} alt="Javascript icon" /> JavaScript
+                      </li>
+                      <li>
+                        <img src={php} alt="PHP icon" /> PHP
+                      </li>
+                      <li>
                         <img src={html} alt="html icon" /> HTML5
                       </li>
                       <li>
                         <img src={css3} alt="css3 icon" /> CSS3
                       </li>
                       <li>
-                        <img src={js} alt="Javascript icon" /> JavaScript
-                      </li>
-                      <li>
                         <img src={jq} alt="jQuery icon" /> jQuery
                       </li>
                       <li>
-                        <img src={php} alt="PHP icon" /> PHP
-                      </li>
-                      <li>
-                        <img src={react} alt="React icon" /> React
-                      </li>
-                      <li>
                         <img src={sass} alt="Sass sass" /> Sass
-                      </li>
-                      <li>
-                        <img src={nodejs} alt="Nodejs icon" /> Nodejs
                       </li>
                       <li>
                         <img src={figma} alt="figma icon" /> Figma

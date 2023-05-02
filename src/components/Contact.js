@@ -4,6 +4,7 @@ import bg from "../images/bg_bulb.jpg";
 import cont from "../images/img_contact.png";
 import paper from "../images/img_paper.svg";
 import emailjs from "@emailjs/browser";
+import Right from "../lottie/arr_rigt";
 
 function Contact() {
   const photo = { backgroundImage: `url(${bg})` };
@@ -40,7 +41,7 @@ function Contact() {
           <br />
         </h3>
 
-        <div>
+        <div className="center_box">
           <div className="cir_contact">
             <img className="img_cont" src={cont} alt="contact profile" />
           </div>
@@ -49,6 +50,7 @@ function Contact() {
             <p>항상 열정을 잃지않는 신입이 되도록 노력하겠습니다.</p>
             <p>궁금하신 사항이 있거나 빠른답변을 원하시면 오른쪽 이메일로 보내주시면 감사하겠습니다.</p>
           </div>
+          <Right />
         </div>
         {/* 이메일 양식 */}
         <form ref={form} onSubmit={sendEmail} className="form_email">

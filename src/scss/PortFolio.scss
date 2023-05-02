@@ -127,6 +127,11 @@
     width: 260px;
   }
 }
+@media (min-width: 1920px) {
+  .video_box {
+    height: 83%;
+  }
+}
 
 @media (max-width: 1440px) {
   .video_box {
