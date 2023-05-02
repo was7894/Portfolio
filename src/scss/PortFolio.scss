@@ -127,16 +127,16 @@
     width: 260px;
   }
 }
-@media (min-width: 1920px) {
+@media (max-width: 1920px) {
   .video_box {
-    height: 83%;
+    height: 555px;
   }
 }
 
 @media (max-width: 1440px) {
   .video_box {
     width: 230px;
-    height: 92%;
+    height: 490px;
     margin: 2px 0 0px 140px;
 
     .video_anbd {
