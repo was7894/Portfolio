@@ -98,9 +98,9 @@ function PortFolio() {
                           api를 활용하여 기상정보 및 대기환경 정보 파싱
                         </li>
                         <li>
-                          - Mysql과 연동하여
+                          - Mysql과 연동하여&nbsp;
                           <a href="http://wa7894.dothome.co.kr/pro1_ver2/board.php" target="_blank" rel="noreferrer">
-                            PHP 게시판
+                            PHP게시판&nbsp;
                           </a>
                           CRUD 구현
                           <a href="https://www.dothome.co.kr/" target="_blank" rel="noreferrer">
@@ -192,7 +192,7 @@ function PortFolio() {
                         </li>
                         <li>
                           - 팀 대표로 프로젝트 깃허브 협업 관리 및 배포 사이트와 연동 <br />
-                          (pront - vercel
+                          (pront - vercel,&nbsp;
                           <a href="https://port-0-anbd-db-sever-6g2llfcbue07.sel3.cloudtype.app/" target="_blank" rel="noreferrer">
                             server - cloudtype
                           </a>
