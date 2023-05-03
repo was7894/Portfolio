@@ -1,7 +1,5 @@
 import React from "react";
 import "../scss/MainPage.scss";
-// import bg from "../images/img_photo.png";
-// import bg from "../images/img_mp.png";
 import bg from "../images/bg_main.png";
 
 function MainPage() {
@@ -40,7 +38,7 @@ function MainPage() {
                 type="button"
                 className="btn_black"
                 onClick={() => {
-                  window.open("https://docs.google.com/document/d/1MiU-XKGUkq9cpLf9lCkEGD_3-5OQL9RW/edit?usp=sharing&ouid=106889525398445370472&rtpof=true&sd=true");
+                  window.open("https://drive.google.com/file/d/1UKl0jhM1-bbMTGJQmN-1iw11rqHwDfJT/view?usp=sharing");
                 }}
               >
                 이력서
