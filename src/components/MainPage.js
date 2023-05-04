@@ -38,7 +38,7 @@ function MainPage() {
                 type="button"
                 className="btn_black"
                 onClick={() => {
-                  window.open("https://drive.google.com/file/d/1UKl0jhM1-bbMTGJQmN-1iw11rqHwDfJT/view?usp=sharing");
+                  window.open("https://drive.google.com/file/d/1GCXY_0XUUMueQQJFgH84V_uW_HyqHB8w/view?usp=sharing");
                 }}
               >
                 이력서
