@@ -66,6 +66,36 @@
     position: relative;
     width: 50%;
     height: inherit;
+
+    .img_left {
+      position: relative;
+      overflow: hidden;
+      width: 450px;
+      height: 425px;
+      margin-top: 30px;
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.06);
+      box-sizing: border-box;
+      border-radius: 14px;
+      background: red url("../images/img_grad1.svg") no-repeat;
+
+      .desc {
+        position: absolute;
+        top: 300px;
+        padding: 15px 40px 0;
+        height: 410px;
+        text-align: center;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.469);
+        backdrop-filter: saturate(180%) blur(10px);
+        transition: all 1s ease-in-out;
+        .exhib {
+          width: 250px;
+        }
+      }
+      &:hover .desc {
+        top: 0;
+      }
+    }
   }
   .box_right {
     display: flex;
@@ -77,7 +107,6 @@
     row-gap: 40px;
     .info_project {
       display: flex;
-      // height: 70%;
       flex-direction: column;
       margin-top: 10px;
       line-height: 1.5rem;
@@ -243,4 +272,8 @@
   width: 100%;
   height: 2550px;
   background-size: cover;
+}
+.list_sty li {
+  list-style: circle !important;
+  margin-left: 35px;
 }

@@ -3,6 +3,7 @@ import "../scss/PortFolio.scss";
 import p1 from "../images/port_gist.png";
 import p21 from "../images/play_anbd.mp4";
 import p3 from "../images/port_yorijori.png";
+import GP from "./Grad_project";
 
 function PortFolio() {
   const bg = useRef(null);
@@ -175,7 +176,7 @@ function PortFolio() {
                     <div>
                       <h5 className="title_">팀인원수 / 기여도 / 작업기간 </h5>
                       <ul>
-                        <li>- 4명 / 50% / 3주 </li>
+                        <li>- 4명 / 40% / 3주 </li>
                       </ul>
                     </div>
                     <div>
@@ -324,21 +325,7 @@ function PortFolio() {
             </div>
           </div>
         </div>
-        {/*  <div className="slide">
-          <div id="container">
-            <h1 className="title_s screen_out">학교졸업작품 설계기획서</h1>
-            <div className="project_box">
-              <div className="box_inner">
-                <div className="box_left">
-                  <span className="num_p">04</span>
-                  <div className="contents_">
-                    <span className="title_p">졸업작품 기획서</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
+        <GP />
       </div>
     </div>
   );
