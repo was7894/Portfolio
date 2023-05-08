@@ -54,6 +54,12 @@
        column-gap: 100px;
   justify-content: center;
 }
+.txt_inner .info {
+  line-height: 20px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
 .txt_inner .center_box {
   display: flex;
   flex-direction: column;

@@ -47,7 +47,7 @@ const Grad_project = () => {
                   <div>
                     <h5 className="title_">사용 기술</h5>
                     <ul>
-                      <li style={{ letterSpacing: "1px" }}>- java, Tomcat(WebSoket)</li>
+                      <li style={{ letterSpacing: "1px" }}>- java, Tomcat(WebSocket)</li>
                     </ul>
                   </div>
                   <div>
