@@ -1,5 +1,5 @@
 import React from "react";
-import "../scss/MainPage.scss";
+import "../css/MainPage.css";
 import bg from "../images/bg_main.png";
 
 function MainPage() {

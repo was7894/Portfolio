@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "../scss/Contact.scss";
+import "../css/Contact.css";
 import bg from "../images/bg_bulb.jpg";
 import cont from "../images/img_contact.png";
 import paper from "../images/img_paper.svg";

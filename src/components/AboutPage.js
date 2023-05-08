@@ -1,5 +1,6 @@
 import React from "react";
-import "../scss/About.scss";
+import "../css/About.css";
+
 /* img root */
 import bg from "../images/img_2.png";
 import html from "../images/img_html.png";

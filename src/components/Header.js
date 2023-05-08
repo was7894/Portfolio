@@ -1,5 +1,5 @@
 import React from "react";
-import "../scss/Header.scss";
+import "../css/Header.css";
 import Logo from "../lottie/lottie";
 function Header() {
   return (

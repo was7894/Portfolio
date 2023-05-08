@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "../scss/PortFolio.scss";
+import "../css/PortFolio.css";
 import p1 from "../images/port_gist.png";
 import p21 from "../images/play_anbd.mp4";
 import p3 from "../images/port_yorijori.png";
