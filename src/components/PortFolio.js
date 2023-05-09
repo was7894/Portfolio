@@ -159,9 +159,9 @@ function PortFolio() {
                 <div className="box_left">
                   <span className="num_p">02</span>
                   <div className="contents_">
-                    <span className="title_p">ANBD (리액트 쇼핑몰 - 웹 앱)</span>
+                    <span className="title_p">ANBD (중고 쇼핑몰 - 리액트 풀스택)</span>
                     <div className="video_box">
-                      <video className="video_anbd" src={p21} muted controls></video>
+                      <video className="video_anbd" src={p21} muted controls autoPlay></video>
                     </div>
                   </div>
                 </div>
