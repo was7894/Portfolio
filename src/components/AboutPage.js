@@ -2,7 +2,7 @@ import React from "react";
 import "../css/About.css";
 
 /* img root */
-import bg from "../images/img_2.png";
+import bg from "../images/bg_main.png";
 import html from "../images/img_html.png";
 import css3 from "../images/img_css3.png";
 import jq from "../images/img_jquery.png";
