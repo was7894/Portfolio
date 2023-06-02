@@ -41,9 +41,9 @@ function Contact() {
             Subscribe!
             <br />
           </h3>
-          <p className="info">이메일 : wa7894@naver.com</p>
+          <p className="info">이메일 : #none</p>
           <br />
-          <p className="info">휴대폰 : 010 - 8213 - 1619</p>
+          <p className="info">휴대폰 : 010 - 7777 - 7777</p>
         </div>
 
         <div className="center_box">
